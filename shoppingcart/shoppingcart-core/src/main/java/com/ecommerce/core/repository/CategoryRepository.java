@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
  * @author Siva
  *
  */
-@Repository
+
 public interface CategoryRepository extends JpaRepository<Category, Integer> {
 	Category getByName(String name);
 }

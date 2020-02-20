@@ -11,7 +11,7 @@ import java.util.List;
  * @author Siva
  *
  */
-@Repository
+
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 
 	Product findBySku(String sku);

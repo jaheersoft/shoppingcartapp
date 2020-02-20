@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
  * @author Siva
  *
  */
-@Repository
+
 public interface PermissionRepository extends JpaRepository<Permission, Integer>
 {
 
